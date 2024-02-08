@@ -24,10 +24,10 @@
 }
 .Hero-child-content-container{
     position: absolute;
-    width: 60%;
+    width: 70%;
     height: 100%;
     /* border: 2px solid black; */
-    left:20%
+    left:15%
 }
 
 .Hero-image-container{
@@ -119,19 +119,47 @@
     position: absolute;
     top: 12%;
     left:0;
-    text-align: justify;
+    text-align:justify;
+    width: 100%;
 }
 
 .Hero-Text-div{
     position: absolute;
     text-align: justify;
-    top:35%;
+    top:30%;
 }
 
 .Hero-Button-div{
     position: absolute;
-    top:70%;
+    top:60%;
     left: 0; 
+}
+@media screen and (min-width:1023px) and (max-width:1370px){
+    .Hero-container{
+        position: relative;
+        /* border: 2px solid black; */
+        width: auto;
+        height: 600px;
+    }
+    .Hero-Title-div{
+        position: absolute;
+        top: 12%;
+        left:0;
+        text-align:justify;
+        width: 100%;
+    }
+    
+    .Hero-Text-div{
+        position: absolute;
+        text-align: justify;
+        top:40%;
+    }
+    
+    .Hero-Button-div{
+        position: absolute;
+        top:65%;
+        left: 0; 
+    }
 }
 
 /* Tablet */
@@ -231,7 +259,7 @@
 
 
 /* Mobile */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
     .Hero-container{
         position: relative;
     }
@@ -253,6 +281,7 @@
     }
     
     .Hero-Title-div{
+        font-size: x-large;
         padding-left: 20px;
         padding-right: 20px;
         position: absolute;
@@ -268,15 +297,15 @@
     }
     .Hero-Button-div{
         position: absolute;
-        top:80%;
+        top:90%;
         left: 50%; 
         transform: translateX(-50%);
     }
     .CardGroupContainer{
         position: absolute;
         /* border: 2px solid black; */
-        height: 90%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         border-radius: 5%;
         display: flex;
         justify-content: center;

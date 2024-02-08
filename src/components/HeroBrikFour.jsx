@@ -18,9 +18,9 @@ function HeroBrikFour(props){
     const cardTextOne = props?.data?.data?.find(item => item?.content?.type === "subtext" && item?.content?.for === "card text" && item?.content?.label === "Card One Text");
     const cardTextTwo = props?.data?.data?.find(item => item?.content?.type === "subtext" && item?.content?.for === "card text" && item?.content?.label === "Card Two Text");
     const cardTextThree = props?.data?.data?.find(item => item?.content?.type === "subtext" && item?.content?.for === "card text" && item?.content?.label === "Card Three Text");
-    const cardImageOne = props?.data?.data?.find(item => item?.content?.type === "img" && item?.content?.label === "Card One");
-    const cardImageTwo = props?.data?.data?.find(item => item?.content?.type === "img" && item?.content?.label === "Card Two");
-    const cardImageThree = props?.data?.data?.find(item => item?.content?.type === "img" && item?.content?.label === "Card Three");
+    const cardImageOne = props?.data?.data?.find(item => item?.content?.type === "img" && item?.content?.label === "Card One Image");
+    const cardImageTwo = props?.data?.data?.find(item => item?.content?.type === "img" && item?.content?.label === "Card Two Image");
+    const cardImageThree = props?.data?.data?.find(item => item?.content?.type === "img" && item?.content?.label === "Card Three Image");
     return(
         <div className="Hero-container">
             <div className="backgroundImage" style={backgroundImage && backgroundImage.content.src? null :  {backgroundColor: `${backgroundColor}` }}>
