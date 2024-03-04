@@ -18,7 +18,7 @@ function App() {
         handleChange={(value) => setBrikData(value)}
       >
         <div className="App">
-          <HeroBrikFour data={brikData}/>
+          <HeroBrikFour data={brikData} />
         </div>
       </AppWrapper>
     </ThemeContextProvider>

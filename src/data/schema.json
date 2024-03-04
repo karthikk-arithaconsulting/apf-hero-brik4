@@ -22,7 +22,7 @@
         "label": "Background image",
         "type": "img",
         "for": "",
-        "src":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAxAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUH/8QAGhABAQEBAQEBAAAAAAAAAAAAAAECERIxIf/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwAEBQb/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8A+mWEsWsJY9OV4FiGoSxewlh5SWIahLF7CWHlDELkmsr2EuTyshckuXRcluTSn5c9yFyvch5N6W5c9wS5dVyTWDTp0cue5Dy6LkPJvS3KPkZlXy3kNdHJPIzJ5k0yGr8kmRmVPJvIatynwZk/DcDVYn5ZTywaz27CWK2FscEr5WxKwlitgWGlLYhYWxawtyeUuIWFuV7kvk2tiNhblby3DejSIXJblewthtV5iPkNYW4Fg66OHP5L5dFyFyb0vIh5bytxuN6W5ifkZk/kZA10cl4PDyD5DVeScbypIPA1WE4x5GbRevYWxQLHFK+YsTsLxSwvB0uJ2FsUsDhpQ8pWBxSwLDa3lLheK2focNppylYFilgWDqnPKXAsV4WwdX5iVgWKWF4bVpCeW8nsbg6rzCcHhh4Gujksg8NxuNqsDg8GCGqQvGPxm0XqcA1BxvnMKWw1aiGJ0Ka/QOGE4FOUWwlgcOAmkToVSwthlZySlsPYWjFeYnYHD2BYZWQrDxhV5gcYRkBbmAaRuCysbjcFoCkbgG4wC9Nj8Cxy68DE79LVOBYMDymWqWFsNoeSFPYFMPklA9KJpyUuj0mhUkJQpqWnikhWogJ5AYWZWAMYWVgCwwFIwyCMBSAw8FtZ63A8qcDji15PlO5JYvwtyOt5QsLYtcksPKHlGwtithNQ8oeScLTUtMMhaSmpaeDhSmpRNAasBopGZmY8YQMysYYBoVSCMCDAMaQDcANbXtALVxOAC0xaLEpNHpKeBYnpPSmk9KQtieiU+k7TwMLqktHVJapG1rfwtoWltNgm63SWh02Hh+t0nR62KQ8pon0ZQxSVSDCSmhbDSnhoSGKfTgwFbXt9AtodcmOI1Ja3SWjjDanqtrSeqpI1bVT1W1U9aPIWhqp2trSeqrIRtVPVbVTulJAG0OktDp8NKa1uk6HRw0qnR6l0eth5VOmlS6aUMPKtKaVKU0pLDyrSmiUp5S2G1Ri9YuDr17SXSd0W7c3lyapdl1pO7JdGnIapdJ3RbtO6POQtNrSd0GtJ6qkhdbWia0FpLVJAa0mq1pLVJAa0vQtLafBN0Ol63RwYfrdJ0egeVSU0qUppQsNKtKaVGVSUlikqsp81GU+aWw2q9YvQJg677qkuqzIxyluqS6rMeFLdUl1WY4FuqTVosaAnbSWix4xKSgx4AEtFjiXrdZhGN0eiwHjdNKzAaGlvTS1mLTnlp5azEom7WZii/9k=",
+        "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAxAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUH/8QAGhABAQEBAQEBAAAAAAAAAAAAAAECERIxIf/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwAEBQb/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8A+mWEsWsJY9OV4FiGoSxewlh5SWIahLF7CWHlDELkmsr2EuTyshckuXRcluTSn5c9yFyvch5N6W5c9wS5dVyTWDTp0cue5Dy6LkPJvS3KPkZlXy3kNdHJPIzJ5k0yGr8kmRmVPJvIatynwZk/DcDVYn5ZTywaz27CWK2FscEr5WxKwlitgWGlLYhYWxawtyeUuIWFuV7kvk2tiNhblby3DejSIXJblewthtV5iPkNYW4Fg66OHP5L5dFyFyb0vIh5bytxuN6W5ifkZk/kZA10cl4PDyD5DVeScbypIPA1WE4x5GbRevYWxQLHFK+YsTsLxSwvB0uJ2FsUsDhpQ8pWBxSwLDa3lLheK2focNppylYFilgWDqnPKXAsV4WwdX5iVgWKWF4bVpCeW8nsbg6rzCcHhh4Gujksg8NxuNqsDg8GCGqQvGPxm0XqcA1BxvnMKWw1aiGJ0Ka/QOGE4FOUWwlgcOAmkToVSwthlZySlsPYWjFeYnYHD2BYZWQrDxhV5gcYRkBbmAaRuCysbjcFoCkbgG4wC9Nj8Cxy68DE79LVOBYMDymWqWFsNoeSFPYFMPklA9KJpyUuj0mhUkJQpqWnikhWogJ5AYWZWAMYWVgCwwFIwyCMBSAw8FtZ63A8qcDji15PlO5JYvwtyOt5QsLYtcksPKHlGwtithNQ8oeScLTUtMMhaSmpaeDhSmpRNAasBopGZmY8YQMysYYBoVSCMCDAMaQDcANbXtALVxOAC0xaLEpNHpKeBYnpPSmk9KQtieiU+k7TwMLqktHVJapG1rfwtoWltNgm63SWh02Hh+t0nR62KQ8pon0ZQxSVSDCSmhbDSnhoSGKfTgwFbXt9AtodcmOI1Ja3SWjjDanqtrSeqpI1bVT1W1U9aPIWhqp2trSeqrIRtVPVbVTulJAG0OktDp8NKa1uk6HRw0qnR6l0eth5VOmlS6aUMPKtKaVKU0pLDyrSmiUp5S2G1Ri9YuDr17SXSd0W7c3lyapdl1pO7JdGnIapdJ3RbtO6POQtNrSd0GtJ6qkhdbWia0FpLVJAa0mq1pLVJAa0vQtLafBN0Ol63RwYfrdJ0egeVSU0qUppQsNKtKaVGVSUlikqsp81GU+aWw2q9YvQJg677qkuqzIxyluqS6rMeFLdUl1WY4FuqTVosaAnbSWix4xKSgx4AEtFjiXrdZhGN0eiwHjdNKzAaGlvTS1mLTnlp5azEom7WZii/9k=",
         "link": ""
       },
       "style": {
@@ -97,7 +97,7 @@
           "weight": ""
         },
         "backgroundColor": "#8338ec",
-        "radius":"50px"
+        "radius": "50px"
       },
       "editable": true,
       "display": "block"
@@ -108,7 +108,7 @@
         "label": "subImage one",
         "type": "img",
         "for": "subImage one",
-        "src":"https://cdn-icons-gif.flaticon.com/14183/14183431.gif",
+        "src": "https://cdn-icons-gif.flaticon.com/14183/14183431.gif",
         "link": ""
       },
       "style": {
@@ -172,7 +172,7 @@
         "label": "subImage two",
         "type": "img",
         "for": "subImage two",
-        "src":"https://cdn-icons-gif.flaticon.com/14447/14447467.gif",
+        "src": "https://cdn-icons-gif.flaticon.com/14447/14447467.gif",
         "link": ""
       },
       "style": {
@@ -236,7 +236,7 @@
         "label": "subImage three",
         "type": "img",
         "for": "subImage three",
-        "src":"https://cdn-icons-gif.flaticon.com/12205/12205137.gif",
+        "src": "https://cdn-icons-gif.flaticon.com/12205/12205137.gif",
         "link": ""
       },
       "style": {
