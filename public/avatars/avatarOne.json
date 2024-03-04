@@ -1,0 +1,299 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "",
+          "label": "Background image",
+          "type": "img",
+          "for": "",
+          "src":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAxAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUH/8QAGhABAQEBAQEBAAAAAAAAAAAAAAECERIxIf/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwAEBQb/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8A+mWEsWsJY9OV4FiGoSxewlh5SWIahLF7CWHlDELkmsr2EuTyshckuXRcluTSn5c9yFyvch5N6W5c9wS5dVyTWDTp0cue5Dy6LkPJvS3KPkZlXy3kNdHJPIzJ5k0yGr8kmRmVPJvIatynwZk/DcDVYn5ZTywaz27CWK2FscEr5WxKwlitgWGlLYhYWxawtyeUuIWFuV7kvk2tiNhblby3DejSIXJblewthtV5iPkNYW4Fg66OHP5L5dFyFyb0vIh5bytxuN6W5ifkZk/kZA10cl4PDyD5DVeScbypIPA1WE4x5GbRevYWxQLHFK+YsTsLxSwvB0uJ2FsUsDhpQ8pWBxSwLDa3lLheK2focNppylYFilgWDqnPKXAsV4WwdX5iVgWKWF4bVpCeW8nsbg6rzCcHhh4Gujksg8NxuNqsDg8GCGqQvGPxm0XqcA1BxvnMKWw1aiGJ0Ka/QOGE4FOUWwlgcOAmkToVSwthlZySlsPYWjFeYnYHD2BYZWQrDxhV5gcYRkBbmAaRuCysbjcFoCkbgG4wC9Nj8Cxy68DE79LVOBYMDymWqWFsNoeSFPYFMPklA9KJpyUuj0mhUkJQpqWnikhWogJ5AYWZWAMYWVgCwwFIwyCMBSAw8FtZ63A8qcDji15PlO5JYvwtyOt5QsLYtcksPKHlGwtithNQ8oeScLTUtMMhaSmpaeDhSmpRNAasBopGZmY8YQMysYYBoVSCMCDAMaQDcANbXtALVxOAC0xaLEpNHpKeBYnpPSmk9KQtieiU+k7TwMLqktHVJapG1rfwtoWltNgm63SWh02Hh+t0nR62KQ8pon0ZQxSVSDCSmhbDSnhoSGKfTgwFbXt9AtodcmOI1Ja3SWjjDanqtrSeqpI1bVT1W1U9aPIWhqp2trSeqrIRtVPVbVTulJAG0OktDp8NKa1uk6HRw0qnR6l0eth5VOmlS6aUMPKtKaVKU0pLDyrSmiUp5S2G1Ri9YuDr17SXSd0W7c3lyapdl1pO7JdGnIapdJ3RbtO6POQtNrSd0GtJ6qkhdbWia0FpLVJAa0mq1pLVJAa0vQtLafBN0Ol63RwYfrdJ0egeVSU0qUppQsNKtKaVGVSUlikqsp81GU+aWw2q9YvQJg677qkuqzIxyluqS6rMeFLdUl1WY4FuqTVosaAnbSWix4xKSgx4AEtFjiXrdZhGN0eiwHjdNKzAaGlvTS1mLTnlp5azEom7WZii/9k=",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "none"
+      },
+      {
+        "content": {
+          "value": "We Give You an Unique Experience",
+          "label": "Main Title",
+          "type": "title",
+          "for": "",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "45",
+            "style": "",
+            "color": "",
+            "weight": "900"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Once we started working on your project, our creative team is concentrated on performing the best result to represent your brand, promoting your products and services ,creating effective ad campaign.",
+          "label": "Main Text",
+          "type": "text",
+          "for": "",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "16",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Read More",
+          "label": "Button",
+          "type": "button",
+          "for": "",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "lg",
+            "style": "filled",
+            "color": "white",
+            "weight": ""
+          },
+          "backgroundColor": "#8338ec",
+          "radius":"50px"
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "subImage one",
+          "type": "img",
+          "for": "subImage one",
+          "src":"https://cdn-icons-gif.flaticon.com/14183/14183431.gif",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Srtategic Planning",
+          "label": "sub title",
+          "type": "title",
+          "for": "title one",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "30",
+            "style": "",
+            "color": "",
+            "weight": "900"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Developing a strategic plan is crucial as it defines every detail of your further actions.",
+          "label": "sub text",
+          "type": "text",
+          "for": "subtext one",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "16",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "subImage two",
+          "type": "img",
+          "for": "subImage two",
+          "src":"https://cdn-icons-gif.flaticon.com/14447/14447467.gif",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Brand Identity",
+          "label": "sub title",
+          "type": "title",
+          "for": "title two",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "30",
+            "style": "",
+            "color": "",
+            "weight": "900"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Brand programs drive new customer acquisition. ProMotionic has a rich experience in branding and rebranding.",
+          "label": "sub text",
+          "type": "text",
+          "for": "subtext two",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "16",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "subImage three",
+          "type": "img",
+          "for": "subImage three",
+          "src":"https://cdn-icons-gif.flaticon.com/12205/12205137.gif",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Best Support",
+          "label": "sub title",
+          "type": "title",
+          "for": "title three",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "30",
+            "style": "",
+            "color": "",
+            "weight": "900"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "You can count on our support during our work on your project as well as after its completion",
+          "label": "sub text",
+          "type": "text",
+          "for": "subtext three",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "Nunito, sans-serif",
+            "size": "16",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      }
+    ]
+  }
+  
