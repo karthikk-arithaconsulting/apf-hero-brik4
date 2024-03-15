@@ -62,7 +62,7 @@ function HeroBrikFour(props) {
   return (
     <div
       className="Hero-container"
-      style={{ backgroundColor: props?.data?.style?.backgroundColor }}
+      style={{ backgroundColor: props?.data?.style?.backgroundColor ,height: props?.data?.style?.height}}
     >
       <div className="backgroundImage">
         {backgroundImage &&
@@ -166,11 +166,11 @@ function HeroBrikFour(props) {
             </div>
             <div className="content-1">
               {subImageTwo &&
-                subImageTwo.content.src &&
+                subImageTwo?.content?.src &&
                 subImageTwo?.display === "block" && (
                   <div className="subImage">
                     <img
-                      src={subImageTwo.content.src}
+                      src={subImageTwo?.content?.src}
                       className="subImage-div"
                     ></img>
                   </div>
@@ -207,11 +207,11 @@ function HeroBrikFour(props) {
             </div>
             <div className="content-1">
               {subImageThree &&
-                subImageThree.content.src &&
+                subImageThree?.content?.src &&
                 subImageThree?.display === "block" && (
                   <div className="subImage">
                     <img
-                      src={subImageThree.content.src}
+                      src={subImageThree?.content?.src}
                       className="subImage-div"
                     ></img>
                   </div>
