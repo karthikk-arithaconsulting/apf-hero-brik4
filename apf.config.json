@@ -1,4 +1,11 @@
 {
   "root": true,
-  "prePublish": ["npm run eslint"]
+  "prePublish": [
+    "npm run eslint"
+  ],
+  "author": "karthik.k <karthik.k@arithaconsulting.com>",
+  "version": "0.1.3",
+  "brikId": "@apf/brik-hero-four",
+  "brikName": "brik-hero-four",
+  "published": true
 }

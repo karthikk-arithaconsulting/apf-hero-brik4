@@ -1,73 +1,86 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
 /* eslint-disable react/prop-types */
-import { Title, Text, Button } from "@apf/core";
-import React from "react";
-import "./HeroBrikFour.css";
-import "@apf/core/dist/style.css";
+var core_1 = require("@apf/core");
+var react_1 = __importDefault(require("react"));
+require("./HeroBrikFour.css");
+require("@apf/core/dist/style.css");
 function HeroBrikFour(props) {
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20, _21, _22, _23, _24, _25, _26, _27, _28, _29, _30, _31, _32, _33, _34, _35, _36, _37, _38, _39, _40, _41, _42, _43, _44, _45, _46, _47, _48, _49, _50, _51, _52, _53, _54, _55, _56, _57, _58, _59, _60, _61, _62, _63, _64, _65, _66, _67, _68, _69, _70, _71, _72, _73, _74, _75, _76, _77, _78, _79, _80, _81, _82, _83, _84, _85, _86, _87, _88;
     // const imageObject = props.data.data.find(item => item?.content?.type === "img" && item?.content?.label === "main image");
-    const titleObject = props?.data?.data?.find((item) => item?.content?.type === "title");
-    const textObject = props?.data?.data?.find((item) => item?.content?.type === "text");
-    const buttonObject = props?.data?.data?.find((item) => item?.content?.type === "button");
-    const backgroundImage = props?.data?.data?.find((item) => item?.content?.type === "img" &&
-        item?.content?.label === "Background image");
+    var titleObject = (_b = (_a = props === null || props === void 0 ? void 0 : props.data) === null || _a === void 0 ? void 0 : _a.data) === null || _b === void 0 ? void 0 : _b.find(function (item) { var _a; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "title"; });
+    var textObject = (_d = (_c = props === null || props === void 0 ? void 0 : props.data) === null || _c === void 0 ? void 0 : _c.data) === null || _d === void 0 ? void 0 : _d.find(function (item) { var _a; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "text"; });
+    var buttonObject = (_f = (_e = props === null || props === void 0 ? void 0 : props.data) === null || _e === void 0 ? void 0 : _e.data) === null || _f === void 0 ? void 0 : _f.find(function (item) { var _a; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "button"; });
+    var backgroundImage = (_h = (_g = props === null || props === void 0 ? void 0 : props.data) === null || _g === void 0 ? void 0 : _g.data) === null || _h === void 0 ? void 0 : _h.find(function (item) {
+        var _a, _b;
+        return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "img" &&
+            ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.label) === "Background image";
+    });
     // const backgroundColor = props?.data?.style?.backgroundColor;
-    const titleOne = props?.data?.data?.find((item) => item?.content?.type === "title" && item?.content?.for === "title one");
-    const titletwo = props?.data?.data?.find((item) => item?.content?.type === "title" && item?.content?.for === "title two");
-    const titlethree = props?.data?.data?.find((item) => item?.content?.type === "title" && item?.content?.for === "title three");
-    const textOne = props?.data?.data?.find((item) => item?.content?.type === "text" && item?.content?.for === "subtext one");
-    const textTwo = props?.data?.data?.find((item) => item?.content?.type === "text" && item?.content?.for === "subtext two");
-    const textThree = props?.data?.data?.find((item) => item?.content?.type === "text" && item?.content?.for === "subtext three");
-    const subImageOne = props?.data?.data?.find((item) => item?.content?.type === "img" && item?.content?.label === "subImage one");
-    const subImageTwo = props?.data?.data?.find((item) => item?.content?.type === "img" && item?.content?.label === "subImage two");
-    const subImageThree = props?.data?.data?.find((item) => item?.content?.type === "img" &&
-        item?.content?.label === "subImage three");
-    return (React.createElement("div", { className: "Hero-container", style: { backgroundColor: props?.data?.style?.backgroundColor, height: props?.data?.style?.height } },
-        React.createElement("div", { className: "backgroundImage" }, backgroundImage &&
+    var titleOne = (_k = (_j = props === null || props === void 0 ? void 0 : props.data) === null || _j === void 0 ? void 0 : _j.data) === null || _k === void 0 ? void 0 : _k.find(function (item) { var _a, _b; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "title" && ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.for) === "title one"; });
+    var titletwo = (_m = (_l = props === null || props === void 0 ? void 0 : props.data) === null || _l === void 0 ? void 0 : _l.data) === null || _m === void 0 ? void 0 : _m.find(function (item) { var _a, _b; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "title" && ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.for) === "title two"; });
+    var titlethree = (_p = (_o = props === null || props === void 0 ? void 0 : props.data) === null || _o === void 0 ? void 0 : _o.data) === null || _p === void 0 ? void 0 : _p.find(function (item) { var _a, _b; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "title" && ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.for) === "title three"; });
+    var textOne = (_r = (_q = props === null || props === void 0 ? void 0 : props.data) === null || _q === void 0 ? void 0 : _q.data) === null || _r === void 0 ? void 0 : _r.find(function (item) { var _a, _b; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "text" && ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.for) === "subtext one"; });
+    var textTwo = (_t = (_s = props === null || props === void 0 ? void 0 : props.data) === null || _s === void 0 ? void 0 : _s.data) === null || _t === void 0 ? void 0 : _t.find(function (item) { var _a, _b; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "text" && ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.for) === "subtext two"; });
+    var textThree = (_v = (_u = props === null || props === void 0 ? void 0 : props.data) === null || _u === void 0 ? void 0 : _u.data) === null || _v === void 0 ? void 0 : _v.find(function (item) { var _a, _b; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "text" && ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.for) === "subtext three"; });
+    var subImageOne = (_x = (_w = props === null || props === void 0 ? void 0 : props.data) === null || _w === void 0 ? void 0 : _w.data) === null || _x === void 0 ? void 0 : _x.find(function (item) { var _a, _b; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "img" && ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.label) === "subImage one"; });
+    var subImageTwo = (_z = (_y = props === null || props === void 0 ? void 0 : props.data) === null || _y === void 0 ? void 0 : _y.data) === null || _z === void 0 ? void 0 : _z.find(function (item) { var _a, _b; return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "img" && ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.label) === "subImage two"; });
+    var subImageThree = (_1 = (_0 = props === null || props === void 0 ? void 0 : props.data) === null || _0 === void 0 ? void 0 : _0.data) === null || _1 === void 0 ? void 0 : _1.find(function (item) {
+        var _a, _b;
+        return ((_a = item === null || item === void 0 ? void 0 : item.content) === null || _a === void 0 ? void 0 : _a.type) === "img" &&
+            ((_b = item === null || item === void 0 ? void 0 : item.content) === null || _b === void 0 ? void 0 : _b.label) === "subImage three";
+    });
+    return (react_1.default.createElement("div", { className: "Hero-container", style: { backgroundColor: (_3 = (_2 = props === null || props === void 0 ? void 0 : props.data) === null || _2 === void 0 ? void 0 : _2.style) === null || _3 === void 0 ? void 0 : _3.backgroundColor, height: (_5 = (_4 = props === null || props === void 0 ? void 0 : props.data) === null || _4 === void 0 ? void 0 : _4.style) === null || _5 === void 0 ? void 0 : _5.height } },
+        react_1.default.createElement("div", { className: "backgroundImage" }, backgroundImage &&
             backgroundImage.content.src &&
-            backgroundImage?.display === "block" && (React.createElement("img", { src: backgroundImage.content.src, className: "backgroundImageTag" }))),
-        React.createElement("div", { className: "Hero-content-container" },
-            React.createElement("div", { className: "left-container" },
-                titleObject && titleObject?.display === "block" && (React.createElement("div", { className: "title-div" },
-                    React.createElement(Title, { c: titleObject?.style?.font?.color, fz: titleObject?.style?.font?.size, style: { fontFamily: titleObject?.style?.font?.family }, fw: titleObject?.style?.font?.weight, className: "Hero-Title-div" }, titleObject?.content?.value))),
-                textObject && textObject?.display === "block" && (React.createElement("div", { className: "text-div" },
-                    React.createElement(Text, { c: textObject?.style?.font.color, fz: textObject?.style?.font?.size, style: { fontFamily: textObject?.style?.font?.family }, fs: textObject?.style?.font?.style, fw: textObject?.style?.font?.weight, className: "Hero-Text-div" }, textObject?.content?.value))),
-                buttonObject && buttonObject?.display === "block" && (React.createElement("div", { className: "button-div" },
-                    React.createElement(Button, { style: {
-                            color: buttonObject?.style?.font.color,
-                            backgroundColor: buttonObject?.style?.backgroundColor,
-                            fontFamily: buttonObject?.style.font.family,
-                        }, size: buttonObject?.style.font.size, variant: "filled", radius: buttonObject?.style?.radius, className: "Hero-Button-div" }, buttonObject?.content.value)))),
-            React.createElement("div", { className: "right-container" },
-                React.createElement("div", { className: "right-child-content" },
-                    React.createElement("div", { className: "content-1" },
+            (backgroundImage === null || backgroundImage === void 0 ? void 0 : backgroundImage.display) === "block" && (react_1.default.createElement("img", { src: backgroundImage.content.src, className: "backgroundImageTag" }))),
+        react_1.default.createElement("div", { className: "Hero-content-container" },
+            react_1.default.createElement("div", { className: "left-container" },
+                titleObject && (titleObject === null || titleObject === void 0 ? void 0 : titleObject.display) === "block" && (react_1.default.createElement("div", { className: "title-div" },
+                    react_1.default.createElement(core_1.Title, { c: (_7 = (_6 = titleObject === null || titleObject === void 0 ? void 0 : titleObject.style) === null || _6 === void 0 ? void 0 : _6.font) === null || _7 === void 0 ? void 0 : _7.color, fz: (_9 = (_8 = titleObject === null || titleObject === void 0 ? void 0 : titleObject.style) === null || _8 === void 0 ? void 0 : _8.font) === null || _9 === void 0 ? void 0 : _9.size, style: { fontFamily: (_11 = (_10 = titleObject === null || titleObject === void 0 ? void 0 : titleObject.style) === null || _10 === void 0 ? void 0 : _10.font) === null || _11 === void 0 ? void 0 : _11.family }, fw: (_13 = (_12 = titleObject === null || titleObject === void 0 ? void 0 : titleObject.style) === null || _12 === void 0 ? void 0 : _12.font) === null || _13 === void 0 ? void 0 : _13.weight, className: "Hero-Title-div" }, (_14 = titleObject === null || titleObject === void 0 ? void 0 : titleObject.content) === null || _14 === void 0 ? void 0 : _14.value))),
+                textObject && (textObject === null || textObject === void 0 ? void 0 : textObject.display) === "block" && (react_1.default.createElement("div", { className: "text-div" },
+                    react_1.default.createElement(core_1.Text, { c: (_15 = textObject === null || textObject === void 0 ? void 0 : textObject.style) === null || _15 === void 0 ? void 0 : _15.font.color, fz: (_17 = (_16 = textObject === null || textObject === void 0 ? void 0 : textObject.style) === null || _16 === void 0 ? void 0 : _16.font) === null || _17 === void 0 ? void 0 : _17.size, style: { fontFamily: (_19 = (_18 = textObject === null || textObject === void 0 ? void 0 : textObject.style) === null || _18 === void 0 ? void 0 : _18.font) === null || _19 === void 0 ? void 0 : _19.family }, fs: (_21 = (_20 = textObject === null || textObject === void 0 ? void 0 : textObject.style) === null || _20 === void 0 ? void 0 : _20.font) === null || _21 === void 0 ? void 0 : _21.style, fw: (_23 = (_22 = textObject === null || textObject === void 0 ? void 0 : textObject.style) === null || _22 === void 0 ? void 0 : _22.font) === null || _23 === void 0 ? void 0 : _23.weight, className: "Hero-Text-div" }, (_24 = textObject === null || textObject === void 0 ? void 0 : textObject.content) === null || _24 === void 0 ? void 0 : _24.value))),
+                buttonObject && (buttonObject === null || buttonObject === void 0 ? void 0 : buttonObject.display) === "block" && (react_1.default.createElement("div", { className: "button-div" },
+                    react_1.default.createElement(core_1.Button, { style: {
+                            color: (_25 = buttonObject === null || buttonObject === void 0 ? void 0 : buttonObject.style) === null || _25 === void 0 ? void 0 : _25.font.color,
+                            backgroundColor: (_26 = buttonObject === null || buttonObject === void 0 ? void 0 : buttonObject.style) === null || _26 === void 0 ? void 0 : _26.backgroundColor,
+                            fontFamily: buttonObject === null || buttonObject === void 0 ? void 0 : buttonObject.style.font.family,
+                        }, size: buttonObject === null || buttonObject === void 0 ? void 0 : buttonObject.style.font.size, variant: "filled", radius: (_27 = buttonObject === null || buttonObject === void 0 ? void 0 : buttonObject.style) === null || _27 === void 0 ? void 0 : _27.radius, className: "Hero-Button-div" }, buttonObject === null || buttonObject === void 0 ? void 0 : buttonObject.content.value)))),
+            react_1.default.createElement("div", { className: "right-container" },
+                react_1.default.createElement("div", { className: "right-child-content" },
+                    react_1.default.createElement("div", { className: "content-1" },
                         subImageOne &&
                             subImageOne.content.src &&
-                            subImageOne?.display === "block" && (React.createElement("div", { className: "subImage" },
-                            React.createElement("img", { src: subImageOne.content.src, className: "subImage-div" }))),
-                        React.createElement("div", { className: "content-2" },
-                            titleOne && titleOne?.display === "block" && (React.createElement("div", { className: "subtitle-one-div" },
-                                React.createElement(Title, { c: titleOne?.style?.font?.color, fz: titleOne?.style?.font?.size, style: { fontFamily: titleOne?.style?.font?.family }, fw: titleOne?.style?.font?.weight, className: "sub-title-one" }, titleOne?.content?.value))),
-                            textOne && textOne?.display === "block" && (React.createElement("div", { className: "subtext-div" },
-                                React.createElement(Text, { c: textOne?.style?.font.color, fz: textOne?.style?.font?.size, style: { fontFamily: textOne?.style?.font?.family }, fs: textOne?.style?.font?.style, fw: textOne?.style?.font?.weight, className: "sub-Text-div" }, textOne?.content?.value))))),
-                    React.createElement("div", { className: "content-1" },
+                            (subImageOne === null || subImageOne === void 0 ? void 0 : subImageOne.display) === "block" && (react_1.default.createElement("div", { className: "subImage" },
+                            react_1.default.createElement("img", { src: subImageOne.content.src, className: "subImage-div" }))),
+                        react_1.default.createElement("div", { className: "content-2" },
+                            titleOne && (titleOne === null || titleOne === void 0 ? void 0 : titleOne.display) === "block" && (react_1.default.createElement("div", { className: "subtitle-one-div" },
+                                react_1.default.createElement(core_1.Title, { c: (_29 = (_28 = titleOne === null || titleOne === void 0 ? void 0 : titleOne.style) === null || _28 === void 0 ? void 0 : _28.font) === null || _29 === void 0 ? void 0 : _29.color, fz: (_31 = (_30 = titleOne === null || titleOne === void 0 ? void 0 : titleOne.style) === null || _30 === void 0 ? void 0 : _30.font) === null || _31 === void 0 ? void 0 : _31.size, style: { fontFamily: (_33 = (_32 = titleOne === null || titleOne === void 0 ? void 0 : titleOne.style) === null || _32 === void 0 ? void 0 : _32.font) === null || _33 === void 0 ? void 0 : _33.family }, fw: (_35 = (_34 = titleOne === null || titleOne === void 0 ? void 0 : titleOne.style) === null || _34 === void 0 ? void 0 : _34.font) === null || _35 === void 0 ? void 0 : _35.weight, className: "sub-title-one" }, (_36 = titleOne === null || titleOne === void 0 ? void 0 : titleOne.content) === null || _36 === void 0 ? void 0 : _36.value))),
+                            textOne && (textOne === null || textOne === void 0 ? void 0 : textOne.display) === "block" && (react_1.default.createElement("div", { className: "subtext-div" },
+                                react_1.default.createElement(core_1.Text, { c: (_37 = textOne === null || textOne === void 0 ? void 0 : textOne.style) === null || _37 === void 0 ? void 0 : _37.font.color, fz: (_39 = (_38 = textOne === null || textOne === void 0 ? void 0 : textOne.style) === null || _38 === void 0 ? void 0 : _38.font) === null || _39 === void 0 ? void 0 : _39.size, style: { fontFamily: (_41 = (_40 = textOne === null || textOne === void 0 ? void 0 : textOne.style) === null || _40 === void 0 ? void 0 : _40.font) === null || _41 === void 0 ? void 0 : _41.family }, fs: (_43 = (_42 = textOne === null || textOne === void 0 ? void 0 : textOne.style) === null || _42 === void 0 ? void 0 : _42.font) === null || _43 === void 0 ? void 0 : _43.style, fw: (_45 = (_44 = textOne === null || textOne === void 0 ? void 0 : textOne.style) === null || _44 === void 0 ? void 0 : _44.font) === null || _45 === void 0 ? void 0 : _45.weight, className: "sub-Text-div" }, (_46 = textOne === null || textOne === void 0 ? void 0 : textOne.content) === null || _46 === void 0 ? void 0 : _46.value))))),
+                    react_1.default.createElement("div", { className: "content-1" },
                         subImageTwo &&
-                            subImageTwo?.content?.src &&
-                            subImageTwo?.display === "block" && (React.createElement("div", { className: "subImage" },
-                            React.createElement("img", { src: subImageTwo?.content?.src, className: "subImage-div" }))),
-                        React.createElement("div", { className: "content-2" },
-                            titletwo && titletwo?.display === "block" && (React.createElement("div", { className: "subtitle-one-div" },
-                                React.createElement(Title, { c: titletwo?.style?.font?.color, fz: titletwo?.style?.font?.size, style: { fontFamily: titletwo?.style?.font?.family }, fw: titletwo?.style?.font?.weight, className: "sub-title-one" }, titletwo?.content?.value))),
-                            textTwo && textTwo?.display === "block" && (React.createElement("div", { className: "subtext-div" },
-                                React.createElement(Text, { c: textTwo?.style?.font.color, fz: textTwo?.style?.font?.size, style: { fontFamily: textTwo?.style?.font?.family }, fs: textTwo?.style?.font?.style, fw: textTwo?.style?.font?.weight, className: "sub-Text-div" }, textTwo?.content?.value))))),
-                    React.createElement("div", { className: "content-1" },
+                            ((_47 = subImageTwo === null || subImageTwo === void 0 ? void 0 : subImageTwo.content) === null || _47 === void 0 ? void 0 : _47.src) &&
+                            (subImageTwo === null || subImageTwo === void 0 ? void 0 : subImageTwo.display) === "block" && (react_1.default.createElement("div", { className: "subImage" },
+                            react_1.default.createElement("img", { src: (_48 = subImageTwo === null || subImageTwo === void 0 ? void 0 : subImageTwo.content) === null || _48 === void 0 ? void 0 : _48.src, className: "subImage-div" }))),
+                        react_1.default.createElement("div", { className: "content-2" },
+                            titletwo && (titletwo === null || titletwo === void 0 ? void 0 : titletwo.display) === "block" && (react_1.default.createElement("div", { className: "subtitle-one-div" },
+                                react_1.default.createElement(core_1.Title, { c: (_50 = (_49 = titletwo === null || titletwo === void 0 ? void 0 : titletwo.style) === null || _49 === void 0 ? void 0 : _49.font) === null || _50 === void 0 ? void 0 : _50.color, fz: (_52 = (_51 = titletwo === null || titletwo === void 0 ? void 0 : titletwo.style) === null || _51 === void 0 ? void 0 : _51.font) === null || _52 === void 0 ? void 0 : _52.size, style: { fontFamily: (_54 = (_53 = titletwo === null || titletwo === void 0 ? void 0 : titletwo.style) === null || _53 === void 0 ? void 0 : _53.font) === null || _54 === void 0 ? void 0 : _54.family }, fw: (_56 = (_55 = titletwo === null || titletwo === void 0 ? void 0 : titletwo.style) === null || _55 === void 0 ? void 0 : _55.font) === null || _56 === void 0 ? void 0 : _56.weight, className: "sub-title-one" }, (_57 = titletwo === null || titletwo === void 0 ? void 0 : titletwo.content) === null || _57 === void 0 ? void 0 : _57.value))),
+                            textTwo && (textTwo === null || textTwo === void 0 ? void 0 : textTwo.display) === "block" && (react_1.default.createElement("div", { className: "subtext-div" },
+                                react_1.default.createElement(core_1.Text, { c: (_58 = textTwo === null || textTwo === void 0 ? void 0 : textTwo.style) === null || _58 === void 0 ? void 0 : _58.font.color, fz: (_60 = (_59 = textTwo === null || textTwo === void 0 ? void 0 : textTwo.style) === null || _59 === void 0 ? void 0 : _59.font) === null || _60 === void 0 ? void 0 : _60.size, style: { fontFamily: (_62 = (_61 = textTwo === null || textTwo === void 0 ? void 0 : textTwo.style) === null || _61 === void 0 ? void 0 : _61.font) === null || _62 === void 0 ? void 0 : _62.family }, fs: (_64 = (_63 = textTwo === null || textTwo === void 0 ? void 0 : textTwo.style) === null || _63 === void 0 ? void 0 : _63.font) === null || _64 === void 0 ? void 0 : _64.style, fw: (_66 = (_65 = textTwo === null || textTwo === void 0 ? void 0 : textTwo.style) === null || _65 === void 0 ? void 0 : _65.font) === null || _66 === void 0 ? void 0 : _66.weight, className: "sub-Text-div" }, (_67 = textTwo === null || textTwo === void 0 ? void 0 : textTwo.content) === null || _67 === void 0 ? void 0 : _67.value))))),
+                    react_1.default.createElement("div", { className: "content-1" },
                         subImageThree &&
-                            subImageThree?.content?.src &&
-                            subImageThree?.display === "block" && (React.createElement("div", { className: "subImage" },
-                            React.createElement("img", { src: subImageThree?.content?.src, className: "subImage-div" }))),
-                        React.createElement("div", { className: "content-2" },
-                            titlethree && titlethree?.display === "block" && (React.createElement("div", { className: "subtitle-one-div" },
-                                React.createElement(Title, { c: titlethree?.style?.font?.color, fz: titlethree?.style?.font?.size, style: { fontFamily: titlethree?.style?.font?.family }, fw: titlethree?.style?.font?.weight, className: "sub-title-one" }, titlethree?.content?.value))),
-                            textThree && textThree?.display === "block" && (React.createElement("div", { className: "subtext-div" },
-                                React.createElement(Text, { c: textThree?.style?.font.color, fz: textThree?.style?.font?.size, style: { fontFamily: textThree?.style?.font?.family }, fs: textThree?.style?.font?.style, fw: textThree?.style?.font?.weight, className: "sub-Text-div" }, textThree?.content?.value))))))))));
+                            ((_68 = subImageThree === null || subImageThree === void 0 ? void 0 : subImageThree.content) === null || _68 === void 0 ? void 0 : _68.src) &&
+                            (subImageThree === null || subImageThree === void 0 ? void 0 : subImageThree.display) === "block" && (react_1.default.createElement("div", { className: "subImage" },
+                            react_1.default.createElement("img", { src: (_69 = subImageThree === null || subImageThree === void 0 ? void 0 : subImageThree.content) === null || _69 === void 0 ? void 0 : _69.src, className: "subImage-div" }))),
+                        react_1.default.createElement("div", { className: "content-2" },
+                            titlethree && (titlethree === null || titlethree === void 0 ? void 0 : titlethree.display) === "block" && (react_1.default.createElement("div", { className: "subtitle-one-div" },
+                                react_1.default.createElement(core_1.Title, { c: (_71 = (_70 = titlethree === null || titlethree === void 0 ? void 0 : titlethree.style) === null || _70 === void 0 ? void 0 : _70.font) === null || _71 === void 0 ? void 0 : _71.color, fz: (_73 = (_72 = titlethree === null || titlethree === void 0 ? void 0 : titlethree.style) === null || _72 === void 0 ? void 0 : _72.font) === null || _73 === void 0 ? void 0 : _73.size, style: { fontFamily: (_75 = (_74 = titlethree === null || titlethree === void 0 ? void 0 : titlethree.style) === null || _74 === void 0 ? void 0 : _74.font) === null || _75 === void 0 ? void 0 : _75.family }, fw: (_77 = (_76 = titlethree === null || titlethree === void 0 ? void 0 : titlethree.style) === null || _76 === void 0 ? void 0 : _76.font) === null || _77 === void 0 ? void 0 : _77.weight, className: "sub-title-one" }, (_78 = titlethree === null || titlethree === void 0 ? void 0 : titlethree.content) === null || _78 === void 0 ? void 0 : _78.value))),
+                            textThree && (textThree === null || textThree === void 0 ? void 0 : textThree.display) === "block" && (react_1.default.createElement("div", { className: "subtext-div" },
+                                react_1.default.createElement(core_1.Text, { c: (_79 = textThree === null || textThree === void 0 ? void 0 : textThree.style) === null || _79 === void 0 ? void 0 : _79.font.color, fz: (_81 = (_80 = textThree === null || textThree === void 0 ? void 0 : textThree.style) === null || _80 === void 0 ? void 0 : _80.font) === null || _81 === void 0 ? void 0 : _81.size, style: { fontFamily: (_83 = (_82 = textThree === null || textThree === void 0 ? void 0 : textThree.style) === null || _82 === void 0 ? void 0 : _82.font) === null || _83 === void 0 ? void 0 : _83.family }, fs: (_85 = (_84 = textThree === null || textThree === void 0 ? void 0 : textThree.style) === null || _84 === void 0 ? void 0 : _84.font) === null || _85 === void 0 ? void 0 : _85.style, fw: (_87 = (_86 = textThree === null || textThree === void 0 ? void 0 : textThree.style) === null || _86 === void 0 ? void 0 : _86.font) === null || _87 === void 0 ? void 0 : _87.weight, className: "sub-Text-div" }, (_88 = textThree === null || textThree === void 0 ? void 0 : textThree.content) === null || _88 === void 0 ? void 0 : _88.value))))))))));
 }
-export default HeroBrikFour;
+exports.default = HeroBrikFour;
+//# sourceMappingURL=HeroBrikFour.js.map

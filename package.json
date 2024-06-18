@@ -1,14 +1,15 @@
 {
   "name": "@apf/brik-hero-four",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/publish.js",
   "files": [
     "dist"
   ],
   "homepage": "./",
   "dependencies": {
-    "@apf/app-wrapper": "^0.2.0",
-    "@apf/core": "^0.0.4-6",
+    "@apf/app-wrapper2": "^0.1.27",
+    "@apf/brik-wrapper": "^0.1.6",
+    "@apf/core": "^0.0.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
